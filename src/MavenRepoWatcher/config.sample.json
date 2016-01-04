@@ -1,0 +1,12 @@
+{
+	"packageUrls": [
+		"http://central.maven.org/maven2/commons-lang/commons-lang",
+		"http://central.maven.org/maven2/com/airbnb/android/airmapview"
+	],
+	"notifyEmail": "user@host",
+	"sender": {
+        "smtp": "smtp.gmail.com",
+		"email": "sender@host",
+		"password": "password"
+	}
+}
