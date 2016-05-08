@@ -2,7 +2,7 @@ class NotificationMessageBuilder
 {
     public NotificationMessageBuilder addNotify(in string packageUrl, in string knownVersion, in string newVersion)
     {
-        text ~= "* " ~ packageUrl ~ ": " ~ knownVersion ~ " => " ~ newVersion ~ "\n";
+        text ~= "* " ~ packageUrl ~ " : " ~ knownVersion ~ " => " ~ newVersion ~ "\n";
         return this;
     }
 
