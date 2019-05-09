@@ -1,0 +1,6 @@
+{
+    "name": "maven-repo-watcher",
+    "description": "Watches maven repos for updated packages and sends a notification email",
+    "targetPath": "bin",
+    "copyFiles": ["src/config.sample.json"]
+}

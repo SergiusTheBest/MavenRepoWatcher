@@ -5,7 +5,7 @@ import NotificationMessageBuilder;
 static import MavenRepoClient;
 static import EmailSender;
 
-int main(string[] argv)
+int main()
 {
     auto configData = new ConfigData("config.json");
     auto persistanceData = PersistentData.load("mavenRepoWatcher-data.json");
